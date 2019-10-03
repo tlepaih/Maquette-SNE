@@ -4,7 +4,7 @@
 
 #include "mbed.h"
 
-AnalogOut Aout(PA_4);
+DigitalOut clk(D7);
 
 int main(void) {
 
@@ -15,7 +15,7 @@ int main(void) {
 
     while(true) {
         
-        Aout = (float)lvl;
+        clk = lvl;
 
         if(timer.read_us() >= 1) {
             
