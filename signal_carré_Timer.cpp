@@ -1,5 +1,5 @@
 /* 
- * Générer un signal carré à l'aide du timer du la carte
+ * Générer un signal carré à l'aide du timer de la carte
  */
 
 #include "mbed.h"
